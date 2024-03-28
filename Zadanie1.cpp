@@ -3,40 +3,43 @@
 using namespace std;
 int main()
 {
-    float n = 1000000, s = 0;
+    int n = 1000000;
+    double suma = 0;
 
+    std::cout.precision(10);
     //a
     
-    s = 0;
+    suma = 0;
 
     for(int j = 1 ; j <= n; j++)
     {
-        s+= (pow((-1), j + 1)) / (2*j - 1);
+        suma += (pow((-1), j + 1)) / (2*j - 1);
     }
 
-    cout << 4 * s << "\n";
+    cout << 4.0 * suma << "\n";
     
     //b
 
-    s = 1;
+    suma = 1;
 
     for(int j = 1 ; j <= n; j++)
     {
-        s*= (4 * pow(j,2)) / ((4 * pow(j,2)) - 1);
+        suma *= (4.0 * j * j) / (4.0 * j * j - 1.0);
     }
 
-    cout << 2 * s << "\n";
+    cout << 2.0 * suma << "\n";
 
-    s = 0;
+    suma = 0;
 
     //c
 
     for(int j = 1; j <= n; j++)
     {
-        s += 1 / (pow((2*j - 1), 2));
+        double tmp = 2.0 * j -1;
+        suma += 1.0 / (tmp * tmp);
     }
 
-    cout << sqrt(8 * s);
+    cout << sqrt(8.0 * suma) << "\n";
 
     return 0;
 }
