@@ -33,11 +33,11 @@ int main()
 
     cout << down(N) << " " << up(N) << " " << up(N) - down(N) << "\n";
 
-    N = 100000;
+    N = 100'000;
 
     cout << down(N) << " " << up(N) << " " << up(N) - down(N) << "\n";
 
-    N = 100000000;
+    N = 100'000'000;
 
     cout << down(N) << " " << up(N) << " " << up(N) - down(N) << "\n";
 
