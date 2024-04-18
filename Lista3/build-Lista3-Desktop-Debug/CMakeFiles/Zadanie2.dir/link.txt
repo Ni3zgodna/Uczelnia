@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/Zadanie2.dir/Zadanie2.cpp.o -o Zadanie2 

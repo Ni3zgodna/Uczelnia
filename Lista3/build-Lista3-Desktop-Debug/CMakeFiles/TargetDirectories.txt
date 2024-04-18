@@ -1,0 +1,4 @@
+/home/s345513/Pulpit/Uczelnia/Lista3/build-Lista3-Desktop-Debug/CMakeFiles/Zadanie1.dir
+/home/s345513/Pulpit/Uczelnia/Lista3/build-Lista3-Desktop-Debug/CMakeFiles/Zadanie2.dir
+/home/s345513/Pulpit/Uczelnia/Lista3/build-Lista3-Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/s345513/Pulpit/Uczelnia/Lista3/build-Lista3-Desktop-Debug/CMakeFiles/rebuild_cache.dir

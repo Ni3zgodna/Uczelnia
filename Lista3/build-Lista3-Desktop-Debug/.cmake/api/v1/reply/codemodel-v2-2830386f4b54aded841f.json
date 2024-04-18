@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Lista3",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Zadanie1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Zadanie1-Debug-08cad19f64983f6d4566.json",
+					"name" : "Zadanie1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Zadanie2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Zadanie2-Debug-d15aafc8a8f2d94564cd.json",
+					"name" : "Zadanie2",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/s345513/Pulpit/Uczelnia/Lista3/build-Lista3-Desktop-Debug",
+		"source" : "/home/s345513/Pulpit/Uczelnia/Lista3/Lista3"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

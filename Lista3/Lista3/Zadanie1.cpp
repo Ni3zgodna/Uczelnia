@@ -32,6 +32,17 @@ size_t sum(const Link* head)
     return s;
 }
 
+void release(Link** phead)
+{
+ Link* head = *phead;
+ if(head->next != nullptr)
+ {
+    release(&head->next);
+    delete head->next;
+ }
+ *phead = nullptr;
+}
+
 int main()
 {
     Link var1, var2, var3;
@@ -45,7 +56,13 @@ int main()
     var2.next = &var3;
     var3.next = nullptr;
 
-    std::cout << size(&var1);
+    std::cout << size(&var1) << " ";
+    std::cout << sum(&var1) << " ";
+
+    // 2
+
+    release(&var1.next);
+
 
 
     return 0;
