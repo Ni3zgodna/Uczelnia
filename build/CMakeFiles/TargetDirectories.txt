@@ -1,4 +1,0 @@
-C:/Uczelnia/Uczelnia/Uczelnia/build/CMakeFiles/Zadanie1.dir
-C:/Uczelnia/Uczelnia/Uczelnia/build/CMakeFiles/Zadanie2.dir
-C:/Uczelnia/Uczelnia/Uczelnia/build/CMakeFiles/ALL_BUILD.dir
-C:/Uczelnia/Uczelnia/Uczelnia/build/CMakeFiles/ZERO_CHECK.dir
