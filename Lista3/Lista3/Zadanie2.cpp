@@ -6,13 +6,34 @@ int value;
 Link* next = nullptr;
 };
 
-void reverse(Link* poprzednia)
-{
+Link* reverse(Link* head) {
+    Link* prev = nullptr;
+    Link* current = head;
+    Link* next = nullptr;
+
+    while (current != nullptr) {
+        next = current->next;
+        current->next = prev;
+        prev = current;
+        current = next;
+    }
+
+    return prev;
+}
+
+void wyswietl(Link* head) {
+    while (head != nullptr) {
+        std::cout << head->value << " ";
+        head = head->next;
+    }
+    std::cout << "nullptr" << std::endl;
 }
 
 int main()
 {
     Link var1, var2, var3, var4;
+
+    Link* head = &var1;
 
     var1.value = 1;
     var2.value = 2;
@@ -24,7 +45,12 @@ int main()
     var3.next = &var4;
     var4.next = nullptr;
 
-    reverse(&var1);
+    wyswietl(head);
+
+    head = reverse(head);
+
+    wyswietl(head);
+
 
     return 0;
 }

@@ -1,0 +1,2 @@
+C:/Uczelnia/Uczelnia/Uczelnia/build/CMakeFiles/CMakeScratch/TryCompile-qhutrp/CMakeFiles/cmTC_ce4fa.dir
+C:/Uczelnia/Uczelnia/Uczelnia/build/CMakeFiles/CMakeScratch/TryCompile-qhutrp/CMakeFiles/ALL_BUILD.dir
