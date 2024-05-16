@@ -1,0 +1,12 @@
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: /home/s345513/Pulpit/Uczelnia/Lista5/build-Lista5-Desktop-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6560a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6560a.dir/build.make CMakeFiles/cmTC_6560a.dir/build
+gmake[1]: Entering directory '/home/s345513/Pulpit/Uczelnia/Lista5/build-Lista5-Desktop-Debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** No rule to make target 'CMakeFiles/cmTC_6560a.dir/link.txt', needed by 'cmTC_6560a'.  Stop.
+gmake[1]: Leaving directory '/home/s345513/Pulpit/Uczelnia/Lista5/build-Lista5-Desktop-Debug/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_6560a/fast] Error 2
+
+
+
+
