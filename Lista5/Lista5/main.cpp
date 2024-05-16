@@ -16,8 +16,8 @@ void Image::save_as(const std::string& filename)
 
     for (auto& line : pixels)
     {
-        line.resize(my_width);
-        out << reinterpret_cast<char*>(&line[0]);
+        out.write(reinterpret_cast<char*>(&line[0]), my_width * sizeof(RGB));
+//        out << reinterpret_cast<char*>(&line[0]);
     }
 }
 
