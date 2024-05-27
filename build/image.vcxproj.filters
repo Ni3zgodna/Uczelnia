@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Uczelnia\Uczelnia\Uczelnia\Lista5\Lista5\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Uczelnia\Uczelnia\Uczelnia\Lista5\Lista5\image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Uczelnia\Uczelnia\Uczelnia\Lista5\Lista5\image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Uczelnia\Uczelnia\Uczelnia\Lista5\Lista5\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{97C995D0-4E0E-374A-AB68-D5AB2A494B1E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1F7D8644-E946-34B3-B87A-62AEEEED50E2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
