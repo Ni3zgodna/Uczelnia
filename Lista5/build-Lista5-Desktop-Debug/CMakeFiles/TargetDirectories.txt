@@ -1,3 +1,0 @@
-/home/s345513/Pulpit/Uczelnia/Lista5/build-Lista5-Desktop-Debug/CMakeFiles/image.dir
-/home/s345513/Pulpit/Uczelnia/Lista5/build-Lista5-Desktop-Debug/CMakeFiles/edit_cache.dir
-/home/s345513/Pulpit/Uczelnia/Lista5/build-Lista5-Desktop-Debug/CMakeFiles/rebuild_cache.dir
