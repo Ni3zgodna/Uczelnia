@@ -1,3 +1,0 @@
-C:/Uczelnia/Uczelnia/Uczelnia/Lista5/Lista5/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/CMakeFiles/image.dir
-C:/Uczelnia/Uczelnia/Uczelnia/Lista5/Lista5/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/CMakeFiles/edit_cache.dir
-C:/Uczelnia/Uczelnia/Uczelnia/Lista5/Lista5/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/CMakeFiles/rebuild_cache.dir
