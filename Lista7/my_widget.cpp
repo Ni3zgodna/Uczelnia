@@ -1,5 +1,4 @@
 #include "my_widget.h"
-
 #include <QPainter>
 
 MyWidget::MyWidget(QWidget* parent)  //
