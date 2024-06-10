@@ -16,11 +16,13 @@ public:
     ~MainWindow();
 
 public slots:
+    void Ikona();
     void koniec_programu();
 private slots:
     void on_action_O_programie_triggered();
 
 private:
+    bool Wylacz;
     Ui::MainWindow *ui;
 };
 #endif // MAINWINDOW_H
